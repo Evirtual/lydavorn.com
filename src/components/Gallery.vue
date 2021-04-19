@@ -11,58 +11,8 @@
 
 <script>
 export default {
-  name: "HelloWorld",
-  data() {
-    return {
-      projects: [
-        {
-          url: "https://live.staticflickr.com/65535/51123492503_5c8da651ed_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51123333304_10c0db6da6_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51123585916_a8b39c341f_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51123608571_c762e24126_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51123042522_7d9ce2aae4_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51123042812_334774f073_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51124416505_869ecfd5bd_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51123522293_c85bdbf207_h.jpg",
-          name: "",
-          description: ""
-        },
-        {
-          url: "https://live.staticflickr.com/65535/51124425030_6d0e5184e1_h.jpg",
-          name: "",
-          description: ""
-        },
-      ]
-    };
-  }
+  name: "Gallery",
+  props: ["projects"]
 };
 </script>
 
@@ -88,8 +38,8 @@ export default {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
-  border: 3px solid white;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
   transition: box-shadow 0.25s ease-in-out, border 0.25s ease-in-out;
   @media only screen and (min-width: 768px) {
     width: 47%;
