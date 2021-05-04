@@ -2,21 +2,11 @@
   <div class="about">
     <div v-for="profile in profiles" :key="profile.id">
       <div class="about-info">
-        <h3>Hello World!</h3>
-        <p>Life for me is like a Living Cell and by contributing my observations I want to share the same view with everyone. We are all one big collaborative family. Everything is connected and alive.</p>
-        <h4>A little bit info about my current activities:</h4>
-        <p>I enjoy traveling, visiting places that I've never been before and at the same time taking scenery pictures and videos, spending time in nature (especially forests, beaches, mountains and lakes). It gives me peace and more understanding of the life we are in.</p>
-        <p>Another passion I have is exploring dreams, talk about them and analyzing the connection to the waken world as well as talking about life itself and I am happy to share those thoughts with everyone.</p>
-        <h4>UX consultancy and development:</h4>
-        <p>Over the past decade I spent time learning design practices in a digital world and imerssed myself into the code to make designs become usable interfaces not only for practicality but also for personal interest in art and mathematics.</p>
-      </div>
-      <div class="about-skills">
-        <h4>Development tools and languages:</h4>
-        <div>
-          <span v-for="skill in profile.skills" :key="skill.id">
-            {{ skill }}<i>,</i></span
-          >
-        </div>
+        <h3>Story about me</h3>
+        <p>My name is Lyda. I am from a big family with one brother and seven sisters. Until I was twelve years old, I lived in a province of Cambodia. After my parents split, I chose to go with my mom to Phnom Penh, where life was not easy but better than listen to my parents arguing.</p>
+        <p>Phnom Penh is the capital city of Cambodia and still developing - a lot of buildings and businesses rising with a lot of consumption happening. So we have a lot of trash around the city. Once my mom came to the city and started to work as a scavenger, and I joined to help her so we could survive in this busy city.</p>
+        <p>Before coming to the city, I didn't have any education and wanted to learn English because my dream was to be an interpreter so, I joined an organization where they teach kids, give them a place to stay and food for free. From that moment, I stopped scavenging and focused on studying. But I still wanted to support my mom and started to work as a part-time waitress. I was the oldest student there and felt embarrassed, but my wish to be a smart girl was stronger than shame. I stayed in the organization for ten years and met more kids like me - it helped me feel better about myself.</p>
+        <p>After all the struggle, I am so happy that I never gave up and keep learning to this day.</p>
       </div>
       <div class="about-contacts">
         <h4>Contact Me</h4>
@@ -53,40 +43,24 @@ export default {
     return {
       profiles: [
         {
-          name: "Edgaras Neverdauskas",
-          phone: "+855 816 80954",
-          email: "neverdauskas.edgaras@gmail.com",
-          skills: ["React", "Vue CLI", "GitHub", "Node.js", "WordPress", "HTML", "CSS", "JavaScript", "PHP", "ASP"]
+          name: "Lyda Vorn",
+          phone: "+855 969 412859",
+          email: "contact@lydavorn.com",
         }
       ],
       socials: [
         {
-          url: "https://github.com/Evirtual",
-          name: "GitHub",
-          color: "#000000"
-        },
-        {
-          url: "https://www.linkedin.com/in/edgarasneverdauskas",
+          url: "https://www.linkedin.com/in/vorn-lyda/",
           name: "LinkedIn",
           color: "#007bb5"
         },
         {
-          url: "https://www.facebook.com/edgaras.neverdauskas",
+          url: "https://www.facebook.com/vorn.lyda.kh",
           name: "Facebook",
           color: "#3b5998"
         },
         {
-          url: "https://www.pinterest.com/neveredgaras",
-          name: "Pinterest",
-          color: "#cb2027"
-        },
-        {
-          url: "https://twitter.com/ed_neverdauskas",
-          name: "Twitter",
-          color: "#55acee"
-        },
-        {
-          url: "https://www.instagram.com/edgaras.neverdauskas",
+          url: "https://www.instagram.com/lyda_vorn/",
           name: "Instagram",
           color: "#e4405f"
         }
@@ -99,7 +73,7 @@ export default {
 <style lang="scss">
 .about {
   margin-bottom: 20px;
-  max-width: 600px;
+  max-width: 550px;
   padding: 1.5rem;
   background: rgba(255, 255, 255, 0.85);
   color: black;
