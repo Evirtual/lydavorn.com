@@ -63,6 +63,11 @@ export default {
           url: "https://www.instagram.com/lyda_vorn/",
           name: "Instagram",
           color: "#e4405f"
+        },
+        {
+          url: "https://www.patreon.com/lydavorn",
+          name: "Patreon",
+          color: "#f96854"
         }
       ]
     };
