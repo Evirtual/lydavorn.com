@@ -68,6 +68,11 @@ export default {
           url: "https://www.patreon.com/lydavorn",
           name: "Patreon",
           color: "#f96854"
+        },
+        {
+          url: "https://atunicorn.io/profile/vqAva3OSvIdfk41jcS3QEenjwjb2/",
+          name: "Unicorn",
+          color: "#7A78AF"
         }
       ]
     };

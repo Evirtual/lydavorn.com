@@ -5,6 +5,7 @@
     </router-link>
     <div class="nav">
       <router-link to="/" class="nav-home"></router-link>
+      <router-link to="/crochet" class="nav-corchet"></router-link>
       <router-link to="/about" class="nav-about"></router-link>
     </div>
   </div>
@@ -63,13 +64,13 @@ export default {
   }
   a {
     display: inline-block;
-    width: 35px;
+    width: 40px;
     margin-left: 15px;
-    height: 35px;
-    background-size: 20px;
+    height: 40px;
+    background-size: 15px;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.85;
     border: 1px solid white;
     transition: opacity 0.25s ease-in-out, background 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
     border-radius: 50%;
@@ -99,6 +100,9 @@ export default {
   @media only screen and (min-width: 768px) {
     background-position: 9px center !important;
   }
+}
+.nav-corchet {
+  background-image: url("../assets/yarn.svg");
 }
 .nav-about {
   background-image: url("../assets/woman.svg");
