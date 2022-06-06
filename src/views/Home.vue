@@ -15,6 +15,17 @@ export default {
     return {
       projects: [
         {
+          url: "https://live.staticflickr.com/65535/52126326759_819518bc50_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
+          url: "https://live.staticflickr.com/65535/52126543075_1403017000_h.jpg",
+          name: "",
+          description: ""
+        },
+
+        {
           url: "https://live.staticflickr.com/65535/52125022752_3e62e61db6_h.jpg",
           name: "",
           description: ""
