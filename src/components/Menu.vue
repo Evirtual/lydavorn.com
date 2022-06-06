@@ -67,13 +67,13 @@ export default {
     width: 40px;
     margin-left: 15px;
     height: 40px;
-    background-size: 15px;
+    background-size: 18px;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.85;
     border: 1px solid white;
     transition: opacity 0.25s ease-in-out, background 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
     border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
     @media only screen and (min-width: 768px) {
       margin: 5px;
     }
@@ -81,25 +81,22 @@ export default {
       display: block;
       width: 55px;
       height: 55px;
-      background-size: 32px;
+      background-size: 28px;
       margin: auto;
       margin-top: 20px;
     }
     &:hover {
-      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.25);
     }
     &.router-link-exact-active {
-      opacity: 1;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.25);
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     }
   }
 }
 .nav-home {
-  background-position: 5px center !important;
+  background-position: 10px center !important;
   background-image: url("../assets/picture.svg");
-  @media only screen and (min-width: 768px) {
-    background-position: 9px center !important;
-  }
 }
 .nav-corchet {
   background-image: url("../assets/yarn.svg");

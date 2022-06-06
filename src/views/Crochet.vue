@@ -15,6 +15,36 @@ export default {
     return {
       projects: [
         {
+          url: "https://live.staticflickr.com/65535/52125576338_c53832954d_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
+          url: "https://live.staticflickr.com/65535/52125544941_08a11e771c_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
+          url: "https://live.staticflickr.com/65535/52126499940_fb8fd7ed92_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
+          url: "https://live.staticflickr.com/65535/52124978347_307e1d4a5e_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
+          url: "https://live.staticflickr.com/65535/52125993771_63d2d4bd0b_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
+          url: "https://live.staticflickr.com/65535/52126028673_a251778661_h.jpg",
+          name: "",
+          description: ""
+        },
+        {
           url: "https://live.staticflickr.com/65535/52125542621_5fb322230a_h.jpg",
           name: "",
           description: ""
